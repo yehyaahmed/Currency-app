@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">أسعار العملات و الجوالات</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="admob_banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string-array name="list">
+        <item>اختر نوع العملة</item>
+        <item>الدولار الامريكي</item>
+        <item>اليورو</item>
+        <item>الجنيه الاسترليني</item>
+        <item>الليرة التركية</item>
+        <item>الريال السعودي</item>
+        <item>الدرهم الاماراتي</item>
+        <item>الجنيه المصري</item>
+        <item>الدينار الاردني</item>
+        <item>الكرون السويدي</item>
+        <item>الدينار الكويتي</item>
+    </string-array>
+
+    <string-array name="phoneType">
+        <item>Samsung</item>
+        <item>Xiaomi</item>
+        <item>Apple</item>
+        <item>Huawei</item>
+        <item>Honor</item>
+        <item>Oppo</item>
+        <item>Nokia</item>
+        <item>Realme</item>
+        <item>Infinix</item>
+    </string-array>
+
+</resources>

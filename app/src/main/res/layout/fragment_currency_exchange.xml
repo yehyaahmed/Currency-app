@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".currencyapplicatio.Fragment.CurrencyExchangeFragment">
+
+
+    <EditText
+        android:id="@+id/enterValueTv"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="@drawable/value_bg"
+        android:ems="10"
+        android:inputType="number"
+        android:gravity="center"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+    <Spinner
+        android:id="@+id/spinnerOne"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/spinner_bg_right"
+        android:entries="@array/list"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/font1"
+        android:text="أدخل القيمة هنا"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_text_bg_right"
+        android:text="التحويل من"
+        android:gravity="start"
+        android:paddingStart="4dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerOne"
+        app:layout_constraintStart_toStartOf="@+id/spinnerOne" />
+
+    <Spinner
+        android:id="@+id/spinnerTwo"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/spinner_bg_left"
+        android:entries="@array/list"
+        android:soundEffectsEnabled="true"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinnerOne" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="التحويل إلى"
+        android:textSize="14sp"
+        android:gravity="end"
+        android:paddingEnd="4dp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/grey"
+        android:background="@drawable/spinner_text_bg_left"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerTwo"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerTwo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/spinner_image"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerTwo"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerTwo"
+        app:layout_constraintTop_toTopOf="@+id/spinnerTwo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/spinner_image"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerOne"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerOne"
+        app:layout_constraintTop_toTopOf="@+id/spinnerOne" />
+
+    <Button
+        android:id="@+id/calculationBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/conter_btn_bg"
+        android:text="أحسب"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerOne"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="الناتج"
+        android:textSize="18sp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/colorPrimary"
+        android:paddingEnd="8dp"
+        android:gravity="end"
+        app:layout_constraintBottom_toBottomOf="@+id/resultTv"
+        app:layout_constraintEnd_toStartOf="@+id/resultTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/resultTv" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="@drawable/value_bg"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/enterValueTv"
+        app:layout_constraintStart_toStartOf="@+id/enterValueTv"
+        app:layout_constraintTop_toBottomOf="@+id/calculationBtn" />
+
+    <TextView
+        android:id="@+id/resultSaleTv"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/value_bg"
+        android:gravity="center"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="@+id/resultTv"
+        app:layout_constraintStart_toStartOf="@+id/resultTv"
+        app:layout_constraintTop_toBottomOf="@+id/resultTv" />
+
+    <TextView
+        android:id="@+id/resultBuyTv"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/value_bg"
+        android:gravity="center"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="@+id/resultSaleTv"
+        app:layout_constraintStart_toStartOf="@+id/resultSaleTv"
+        app:layout_constraintTop_toBottomOf="@+id/resultSaleTv" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="الناتج  ل.س مبيع"
+        android:textSize="18sp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/colorPrimary"
+        android:paddingEnd="8dp"
+        android:gravity="end"
+        app:layout_constraintBottom_toBottomOf="@+id/resultSaleTv"
+        app:layout_constraintEnd_toStartOf="@+id/resultSaleTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/resultSaleTv" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="الناتج  ل.س شراء"
+        android:textSize="18sp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/colorPrimary"
+        android:paddingEnd="8dp"
+        android:gravity="end"
+        app:layout_constraintBottom_toBottomOf="@+id/resultBuyTv"
+        app:layout_constraintEnd_toStartOf="@+id/resultBuyTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/resultBuyTv" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView123"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        app:adSize="MEDIUM_RECTANGLE"
+        app:adUnitId="ca-app-pub-7449694416039010/7099359300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultBuyTv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

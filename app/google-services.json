@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "720135504758",
+    "firebase_url": "https://currencyapplication-17750.firebaseio.com",
+    "project_id": "currencyapplication-17750",
+    "storage_bucket": "currencyapplication-17750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720135504758:android:bdab96ec45e86edaeaf057",
+        "android_client_info": {
+          "package_name": "com.currencyapplication.currencyapplicatio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720135504758-6oqptn90f834t7235u0f6ehpsaokvbqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkftCCfD1pUmwcMpaKKXvgsl03mF2AO1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720135504758-6oqptn90f834t7235u0f6ehpsaokvbqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720135504758:android:ba3c12a325f8d3e1eaf057",
+        "android_client_info": {
+          "package_name": "com.currencyapplication.currencyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720135504758-vd2hguhprp8jv9td87777p392eq5qeg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.currencyapplication.currencyapplication",
+            "certificate_hash": "8882d2206e1a4275bd5438c719b9dc4d4bb79a53"
+          }
+        },
+        {
+          "client_id": "720135504758-6oqptn90f834t7235u0f6ehpsaokvbqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkftCCfD1pUmwcMpaKKXvgsl03mF2AO1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720135504758-6oqptn90f834t7235u0f6ehpsaokvbqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720135504758:android:75396dc269f323f8eaf057",
+        "android_client_info": {
+          "package_name": "com.currencyapplicationadmin.currencyapplicationadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720135504758-2273is8ljt9kn2vsptumffe13jnfldf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.currencyapplicationadmin.currencyapplicationadmin",
+            "certificate_hash": "8882d2206e1a4275bd5438c719b9dc4d4bb79a53"
+          }
+        },
+        {
+          "client_id": "720135504758-6oqptn90f834t7235u0f6ehpsaokvbqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkftCCfD1pUmwcMpaKKXvgsl03mF2AO1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720135504758-6oqptn90f834t7235u0f6ehpsaokvbqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

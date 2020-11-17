@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#000"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/todayPrice"
+        android:icon="@drawable/icon1"
+        android:title="سعر اليوم"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"/>
+    <item
+        android:id="@+id/exchangeRates"
+        android:icon="@drawable/phone_salary"
+        android:title="أسعار الجوالات"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"/>
+    <item
+        android:id="@+id/goldPrices"
+        android:icon="@drawable/icon3"
+        android:title="أسعار الذهب"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"/>
+    <item
+        android:id="@+id/currencyExchange"
+        android:icon="@drawable/icon4"
+        android:title="تحويل العملات"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"/>
+
+</menu>

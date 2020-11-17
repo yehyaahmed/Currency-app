@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/menuNav">
+
+        <item
+            android:id="@+id/notificationNav"
+            android:title="ضبط الإشعارات"
+            android:icon="@drawable/ring">
+        </item>
+        <item
+            android:id="@+id/shareAppNav"
+            android:title="مشاركة التطبيق"
+            android:icon="@drawable/share">
+        </item>
+        <item
+            android:id="@+id/evaluationAppNav"
+            android:title="تقييم التطبيق"
+            android:icon="@drawable/star">
+        </item>
+        <item
+            android:id="@+id/facebookNav"
+            android:title="تابعنا على الفيس بوك"
+            android:icon="@drawable/facebook">
+        </item>
+        <item
+            android:id="@+id/telegramNav"
+            android:title="تابعنا على تلجرام"
+            android:icon="@drawable/telegram">
+        </item>
+        <item
+            android:id="@+id/MessengerNav"
+            android:title="تواصل معنا"
+            android:icon="@drawable/massenger">
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:visible="true"
+        android:orderInCategory="100"
+        android:id="@+id/refrechDataNav"
+        android:icon="@drawable/refresh_icon"
+        android:title="">
+
+    </item>
+    <item
+        app:showAsAction="always"
+        android:visible="true"
+        android:id="@+id/calcolateNav"
+        android:icon="@drawable/calcolate_icon"
+        android:title="">
+
+    </item>
+
+</menu>
